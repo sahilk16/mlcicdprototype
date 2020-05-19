@@ -18,7 +18,7 @@ expected_columns = 4
 
 
 def test_check_schema():
-    datafile = get_absPath("turbine.csv")
+    datafile = get_absPath("turbine_training_set.csv")
     # check that file exists
     assert os.path.exists(datafile)
     dataset = pd.read_csv(datafile)
