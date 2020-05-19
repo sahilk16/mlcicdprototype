@@ -89,7 +89,7 @@ r_square = metrics.r2_score( data["test"]["y"], model_test)
 MAE = metrics.mean_absolute_error(data["test"]["y"], model_test)
 print("Mean Absolute Error:", mse)
 run.log("mse", mse)
-print('R2 error:' r_square)
+print('R2 error:', r_square)
 run.log('r2', r_square) 
 
 
